@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { ListFoodComponent } from './list-food/list-food.component';
-import {MatButtonModule} from '@angular/material/button'
+
 
 @NgModule({
   declarations: [
@@ -13,11 +13,8 @@ import {MatButtonModule} from '@angular/material/button'
   imports: [
     BrowserModule,
     HttpClientModule,
-    MatButtonModule
   ],
-  exports:[
-   MatButtonModule
-  ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
