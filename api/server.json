@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Food": [
+    {
+      "id": 1,
+      "title": "Halwa",
+      "sweet": true
+    },
+    {
+      "id": 2,
+      "title": "Cheese Kofta",
+      "sweet": false
+    },
+    {
+      "id": 3,
+      "title": "Pasta",
+      "sweet": false
+    },
+    {
+      "id": 4,
+      "title": "Black Forest",
+      "sweet": true
+    },
+    {
+      "id": 5,
+      "title": "Custard",
+      "sweet": true
+    },
+    {
+      "id": 6,
+      "title": "Biryani",
+      "sweet": true
+    }
+  ]
+}
